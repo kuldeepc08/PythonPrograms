@@ -1,0 +1,1 @@
+'''wap accpet a number from user and display the count and the digit which occurs maximum number of times'''
