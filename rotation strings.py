@@ -1,3 +1,5 @@
+"Rotation string om and mo it should be print true"
+
 def rotation(x,y):
     if len(x)!=len(y):
         return False
