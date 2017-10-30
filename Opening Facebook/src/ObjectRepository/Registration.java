@@ -31,6 +31,9 @@ public class Registration {
 	@FindBy(css="[type='submit']")
 	WebElement SignInBtn;
 	
+	@FindBy(css="[type='submit']")
+	WebElement SignInBtnres;
+	
 	
 
 	public WebElement clickOnLogin()
@@ -52,5 +55,6 @@ public class Registration {
 	{
 		//SignInBtn.click();
 		return SignInBtn;
+	
 	}
 }
