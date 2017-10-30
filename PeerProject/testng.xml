@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite">
+  <test name="Firefox Test">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="multiBrowsers.RunMultiBrowsers"/>
+      <class name="login.Login"/>
+      <class name="login.PassWordClass"/>
+      <!-- <class name="surveyListing.SurveyList"/>
+      <class name="surveyListing.SuveryInfo"/>
+      <class name="surveyListing.SurveyStarted"/> -->
+      <!-- <class name="surveyListing.Area"/>
+      <class name="surveyListing.TextEntry"/>
+      <class name="surveyListing.DynamicTextEntry"/>
+      <class name="surveyListing.MultiPullDown"/>
+      <class name="surveyListing.Slider"/>
+      <class name="surveyListing.MutliSelectRadioButton"/> -->
+     
+    </classes>
+  </test>
+  <test name="Chrome Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+        <class name="multiBrowsers.RunMultiBrowsers"/>
+        <class name="login.Login"/>
+        <class name="login.PassWordClass"/>
+        <class name="surveyListing.SurveyList"/>
+        <class name="surveyListing.SuveryInfo"/>
+        <class name="surveyListing.SurveyStarted"/>
+        <class name="surveyListing.Area"/>
+        <class name="surveyListing.TextEntry"/>
+        <class name="surveyListing.DynamicTextEntry"/>
+        <class name="surveyListing.MultiPullDown"/>
+        <class name="surveyListing.Slider"/>
+        <class name="surveyListing.MutliSelectRadioButton"/>
+     
+    </classes>
+  </test>
+    <test name="Internet Explorer Test">
+    <parameter name="browser" value="IE"/>
+    <classes>
+       <class name="multiBrowsers.RunMultiBrowsers"/> 
+       <class name="login.Login"/>
+       <class name="login.PassWordClass"/>
+       <class name="surveyListing.SurveyList"/>
+       <class name="surveyListing.SuveryInfo"/>
+       <class name="surveyListing.SurveyStarted"/>
+    </classes>
+  </test>
+</suite>

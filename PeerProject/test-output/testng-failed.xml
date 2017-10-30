@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="surveyListing.TextEntry">
+        <methods>
+          <include name="testEnterValueInTextBox"/>
+          <include name="testVerifyQuestionImg"/>
+          <include name="testClickOnNextButton"/>
+          <include name="testVerifyQuestion"/>
+          <include name="testClickOnMoreLink"/>
+        </methods>
+      </class> <!-- surveyListing.TextEntry -->
+      <class name="surveyListing.MultiSelectWithCheckBox">
+        <methods>
+          <include name="testVerifyQuestionImg"/>
+          <include name="testPrintCheckBoxname"/>
+          <include name="testVerifyQuestion"/>
+          <include name="testClickonMoreLink"/>
+          <include name="testClickOnNextButton"/>
+          <include name="testSelectCheckBox"/>
+        </methods>
+      </class> <!-- surveyListing.MultiSelectWithCheckBox -->
+      <class name="surveyListing.Area">
+        <methods>
+          <include name="testDropDownBox"/>
+          <include name="testMoreLink"/>
+          <include name="testVerifyQuestionName"/>
+          <include name="testSendValuesToTextBoxes"/>
+          <include name="testClickOnNextButton"/>
+        </methods>
+      </class> <!-- surveyListing.Area -->
+      <class name="login.PassWordClass">
+        <methods>
+          <include name="testSendValueToPassword"/>
+          <include name="testClickOnSignInButton"/>
+        </methods>
+      </class> <!-- login.PassWordClass -->
+      <class name="surveyListing.SurveyList">
+        <methods>
+          <include name="testSurveyButton"/>
+        </methods>
+      </class> <!-- surveyListing.SurveyList -->
+      <class name="surveyListing.DynamicTextEntry">
+        <methods>
+          <include name="testSendvalueToTextBox"/>
+          <include name="testClickOnAddResponseButton"/>
+          <include name="testClickOnSkipButton"/>
+          <include name="testClickOnMoreLink"/>
+          <include name="testVerifyQuestion"/>
+        </methods>
+      </class> <!-- surveyListing.DynamicTextEntry -->
+      <class name="surveyListing.Slider">
+        <methods>
+          <include name="testVerifyQuestionNameFromSecondSlide"/>
+          <include name="testMoveSlider"/>
+          <include name="testClickOnNext"/>
+          <include name="testClickOnMoreLink"/>
+        </methods>
+      </class> <!-- surveyListing.Slider -->
+      <class name="surveyListing.MutliSelectRadioButton">
+        <methods>
+          <include name="testClickOnNextButton"/>
+          <include name="testPrintAllDataFromTable"/>
+          <include name="testClickOnMoreLink"/>
+          <include name="testVerifyQuestions"/>
+          <include name="testVerifyImage"/>
+          <include name="testSelectRadioButtons"/>
+        </methods>
+      </class> <!-- surveyListing.MutliSelectRadioButton -->
+      <class name="multiBrowsers.RunMultiBrowsers">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- multiBrowsers.RunMultiBrowsers -->
+      <class name="surveyListing.MultiPullDown">
+        <methods>
+          <include name="testChooseOneAnswer"/>
+          <include name="testVerifyQuestionImg"/>
+          <include name="testVerifyQuestion"/>
+        </methods>
+      </class> <!-- surveyListing.MultiPullDown -->
+      <class name="surveyListing.SurveyStarted">
+        <methods>
+          <include name="testClickOnNextButton"/>
+          <include name="testVerifyImageIsPresent"/>
+          <include name="testSendValueToTextBox"/>
+          <include name="testVerifyQuestionNameFromFirstSlide"/>
+          <include name="testVerifyMoreLinkAndClickOnIt"/>
+        </methods>
+      </class> <!-- surveyListing.SurveyStarted -->
+      <class name="surveyListing.CalendarQuestion">
+        <methods>
+          <include name="testClickonMoreLink"/>
+          <include name="testVerifyQuestion"/>
+          <include name="testClickOnNextButton"/>
+          <include name="testSelectDateFromCalendar"/>
+        </methods>
+      </class> <!-- surveyListing.CalendarQuestion -->
+      <class name="surveyListing.SuveryInfo">
+        <methods>
+          <include name="testVerifyProfileImageIsPresent"/>
+        </methods>
+      </class> <!-- surveyListing.SuveryInfo -->
+      <class name="surveyListing.SingleRadioButton">
+        <methods>
+          <include name="testVerifyQuestionImg"/>
+          <include name="testAllRadioButtonsName"/>
+          <include name="testSelectRaadioButton"/>
+          <include name="testClickOnNextButton"/>
+        </methods>
+      </class> <!-- surveyListing.SingleRadioButton -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

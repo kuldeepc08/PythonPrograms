@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <parameter name="browser" value="IE"/>
+  <test name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="surveyListing.DynamicTextEntry">
+        <methods>
+          <include name="testSendvalueToTextBox"/>
+          <include name="testClickOnAddResponseButton"/>
+          <include name="testClickOnSkipButton"/>
+          <include name="testClickOnMoreLink"/>
+          <include name="testVerifyQuestion"/>
+        </methods>
+      </class> <!-- surveyListing.DynamicTextEntry -->
+      <class name="surveyListing.MutliSelectRadioButton">
+        <methods>
+          <include name="testClickOnNextButton"/>
+          <include name="testPrintAllDataFromTable"/>
+          <include name="testClickOnMoreLink"/>
+          <include name="testVerifyQuestions"/>
+          <include name="testVerifyImage"/>
+          <include name="testSelectRadioButtons"/>
+        </methods>
+      </class> <!-- surveyListing.MutliSelectRadioButton -->
+      <class name="multiBrowsers.RunMultiBrowsers">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- multiBrowsers.RunMultiBrowsers -->
+      <class name="surveyListing.MultiPullDown">
+        <methods>
+          <include name="testChooseOneAnswer"/>
+          <include name="testVerifyQuestionImg"/>
+          <include name="testVerifyQuestion"/>
+        </methods>
+      </class> <!-- surveyListing.MultiPullDown -->
+      <class name="surveyListing.Slider">
+        <methods>
+          <include name="testVerifyQuestionNameFromSecondSlide"/>
+          <include name="testMoveSlider"/>
+          <include name="testClickOnNext"/>
+          <include name="testClickOnMoreLink"/>
+        </methods>
+      </class> <!-- surveyListing.Slider -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="surveyListing.DynamicTextEntry">
+        <methods>
+          <include name="testSendvalueToTextBox"/>
+          <include name="testClickOnAddResponseButton"/>
+          <include name="testClickOnSkipButton"/>
+          <include name="testClickOnMoreLink"/>
+          <include name="testVerifyQuestion"/>
+        </methods>
+      </class> <!-- surveyListing.DynamicTextEntry -->
+      <class name="surveyListing.SuveryInfo">
+        <methods>
+          <include name="testVerifyProfileImageIsPresent"/>
+        </methods>
+      </class> <!-- surveyListing.SuveryInfo -->
+      <class name="login.PassWordClass">
+        <methods>
+          <include name="testCheckCaption"/>
+          <include name="testSendValueToPassword"/>
+          <include name="testVerifyImgIsDisplayed"/>
+          <include name="tesVerifySuccessfulUrl"/>
+          <include name="testClickOnSignInButton"/>
+        </methods>
+      </class> <!-- login.PassWordClass -->
+      <class name="surveyListing.MutliSelectRadioButton">
+        <methods>
+          <include name="testClickOnNextButton"/>
+          <include name="testPrintAllDataFromTable"/>
+          <include name="testClickOnMoreLink"/>
+          <include name="testVerifyQuestions"/>
+          <include name="testVerifyImage"/>
+          <include name="testSelectRadioButtons"/>
+        </methods>
+      </class> <!-- surveyListing.MutliSelectRadioButton -->
+      <class name="multiBrowsers.RunMultiBrowsers">
+        <methods>
+          <include name="testVerifyLoginLink"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testClickOnStartNowButton"/>
+          <include name="login_TestCase"/>
+        </methods>
+      </class> <!-- multiBrowsers.RunMultiBrowsers -->
+      <class name="surveyListing.TextEntry">
+        <methods>
+          <include name="testEnterValueInTextBox"/>
+          <include name="testVerifyQuestionImg"/>
+          <include name="testClickOnNextButton"/>
+          <include name="testVerifyQuestion"/>
+          <include name="testClickOnMoreLink"/>
+        </methods>
+      </class> <!-- surveyListing.TextEntry -->
+      <class name="surveyListing.MultiPullDown">
+        <methods>
+          <include name="testChooseOneAnswer"/>
+          <include name="testVerifyQuestionImg"/>
+          <include name="testVerifyQuestion"/>
+        </methods>
+      </class> <!-- surveyListing.MultiPullDown -->
+      <class name="surveyListing.SurveyStarted">
+        <methods>
+          <include name="testClickOnNextButton"/>
+          <include name="testVerifyImageIsPresent"/>
+          <include name="testSendValueToTextBox"/>
+          <include name="testVerifyQuestionNameFromFirstSlide"/>
+          <include name="testVerifyMoreLinkAndClickOnIt"/>
+        </methods>
+      </class> <!-- surveyListing.SurveyStarted -->
+      <class name="surveyListing.Area">
+        <methods>
+          <include name="testDropDownBox"/>
+          <include name="testMoreLink"/>
+          <include name="testVerifyQuestionName"/>
+          <include name="testSendValuesToTextBoxes"/>
+          <include name="testClickOnNextButton"/>
+        </methods>
+      </class> <!-- surveyListing.Area -->
+      <class name="surveyListing.Slider">
+        <methods>
+          <include name="testVerifyQuestionNameFromSecondSlide"/>
+          <include name="testMoveSlider"/>
+          <include name="testClickOnNext"/>
+          <include name="testClickOnMoreLink"/>
+        </methods>
+      </class> <!-- surveyListing.Slider -->
+      <class name="surveyListing.SurveyList">
+        <methods>
+          <include name="testSurveyButton"/>
+        </methods>
+      </class> <!-- surveyListing.SurveyList -->
+      <class name="login.Login">
+        <methods>
+          <include name="testVerifyTextBoxHeader"/>
+          <include name="testVerifyChallengeQuestionHeading"/>
+          <include name="testVerifySignUpText"/>
+          <include name="testEnterValuesInEmailTextBox"/>
+          <include name="testSendvaluesToQuestions"/>
+          <include name="testClickOnSigninButtonForLogin"/>
+          <include name="testClickOnSignInButton"/>
+        </methods>
+      </class> <!-- login.Login -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Internet Explorer Test(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="surveyListing.SuveryInfo">
+        <methods>
+          <include name="testVerifyProfileTextArePresentOnTheSurvey"/>
+          <include name="testVerifyProfileImageIsPresent"/>
+        </methods>
+      </class> <!-- surveyListing.SuveryInfo -->
+      <class name="login.PassWordClass">
+        <methods>
+          <include name="testCheckCaption"/>
+          <include name="testSendValueToPassword"/>
+          <include name="testVerifyImgIsDisplayed"/>
+          <include name="tesVerifySuccessfulUrl"/>
+          <include name="testClickOnSignInButton"/>
+        </methods>
+      </class> <!-- login.PassWordClass -->
+      <class name="multiBrowsers.RunMultiBrowsers">
+        <methods>
+          <include name="testVerifyLoginLink"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testClickOnStartNowButton"/>
+        </methods>
+      </class> <!-- multiBrowsers.RunMultiBrowsers -->
+      <class name="surveyListing.SurveyStarted">
+        <methods>
+          <include name="testClickOnNextButton"/>
+          <include name="testVerifyImageIsPresent"/>
+          <include name="testSendValueToTextBox"/>
+          <include name="testVerifyQuestionNameFromFirstSlide"/>
+          <include name="testVerifyMoreLinkAndClickOnIt"/>
+        </methods>
+      </class> <!-- surveyListing.SurveyStarted -->
+      <class name="surveyListing.SurveyList">
+        <methods>
+          <include name="testSurveyButton"/>
+        </methods>
+      </class> <!-- surveyListing.SurveyList -->
+      <class name="login.Login">
+        <methods>
+          <include name="testVerifyTextBoxHeader"/>
+          <include name="testVerifyChallengeQuestionHeading"/>
+          <include name="testVerifySignUpText"/>
+          <include name="testEnterValuesInEmailTextBox"/>
+          <include name="testSendvaluesToQuestions"/>
+          <include name="testClickOnSigninButtonForLogin"/>
+          <include name="testClickOnSignInButton"/>
+        </methods>
+      </class> <!-- login.Login -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
